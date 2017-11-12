@@ -1,0 +1,42 @@
+body {
+	overflow-x: scroll;
+    overflow-y: scroll;
+    text-align: justify;	
+}
+
+h4 {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.info-list-name {
+	font-weight: bold;
+	width: 40%;
+}
+
+.info-list-value {
+	
+}
+
+.code {
+	margin-top: 5px;
+	background-color: #ddd;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.contact-partner {
+	background-color: #ddd;
+	padding: 10px;
+}
+
+.web-link {
+	background-color: #ddd;
+	font-size: 14px;
+	padding: 5px;
+}
+.web-link > span {
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+}

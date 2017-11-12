@@ -1,0 +1,4 @@
+.button-refresh{
+	-fx-background-image: url('/resources/refresh.png'); 
+	-fx-background-repeat: no-repeat; 
+}

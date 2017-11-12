@@ -1,0 +1,106 @@
+#editPagePane {
+	-fx-padding: 10 10 10 10;
+	-fx-background-color: -squareui-bg-color;
+}
+
+#topMenuPane {
+	-fx-padding: 0 0 10 0;
+}
+
+#scrollPane {
+    -fx-fit-to-height: true;
+    -fx-fit-to-width: true;	
+}
+
+#articleElementsList {
+	-fx-padding: 0em;
+	/*
+	-fx-padding: 10;
+	-fx-spacing: 10;
+	*/	
+}
+
+#topMenuPane Button {
+	-fx-border-width: 1 1 1 0; 
+	-fx-border-color: #c8c8c8 #c8c8c8 #c8c8c8 #c8c8c8;
+	-fx-border-radius: 0;
+	-fx-min-height: 35;
+	-fx-pref-height: 35; 
+	-fx-max-height: 35;
+	-fx-padding: 0 5 0 5;
+}
+#topMenuPane Label {
+	-fx-border-width: 1 1 1 0; 
+	-fx-border-color: #c8c8c8 #c8c8c8 #c8c8c8 #c8c8c8;
+	-fx-border-radius: 0;	
+	-fx-background-color: white; 
+	-fx-min-height: 35;
+	-fx-pref-height: 35; 
+	-fx-max-height: 35;
+	-fx-padding: 0;		
+}
+#topMenuPane .all-borders {
+	-fx-border-width: 1 1 1 1; 
+	-fx-border-color: #c8c8c8 #c8c8c8 #c8c8c8 #c8c8c8;
+	-fx-border-radius: 0;		
+}
+
+.split-pane {
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 0;
+}
+
+.article-fixed-fields .section-title {
+	-fx-font-weight: bold;
+}
+
+.article-fixed-fields .section-subtitle {
+	-fx-font-style: italic;
+}
+
+.article-fixed-fields VBox {
+	-fx-padding: 10;
+	-fx-spacing: 5;	
+}
+
+.article-element-border-top {
+	-fx-border-color: silver;
+	-fx-border-width: 1 0 0 0;
+}
+
+.article-element-toolbar {
+    -fx-background-color:
+        linear-gradient(to bottom,
+            derive(-fx-color,-15%) 85%,
+            derive(-fx-color,-25%) 90%
+        ),
+        -fx-inner-border;
+    -fx-background-insets: 0, 0 0 1 0;
+    /*-fx-background-radius: 3 3 0 0, 2 2 0 0, 1 1 0 0;*/
+    -fx-background-radius: 0;
+    /*-fx-padding: 0.3333em 0.75em 0.3333em 0.75em; /* 4 9 4 9 */
+    -fx-padding: 0 0 1 0; 
+}
+.article-element-toolbar Label {
+	-fx-padding: 0 5 0 5;
+	-fx-min-height: 25;
+	-fx-pref-height: 25; 
+	-fx-max-height: 25;
+}
+.article-element-toolbar Button {
+	-fx-border-width: 0 1 0 0; 
+	-fx-border-color: #c8c8c8 #c8c8c8 #c8c8c8 #c8c8c8;
+	-fx-border-radius: 0;
+	-fx-min-height: 25;
+	-fx-pref-height: 25; 
+	-fx-max-height: 25;
+	-fx-padding: 0 5 0 5;
+}
+.article-element-toolbar Button.icon {
+	-fx-font-family: 'FontAwesome';
+	-fx-font-size: 14px;
+}
+.article-element-content {
+	-fx-padding: 10;
+}
